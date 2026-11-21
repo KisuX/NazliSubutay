@@ -86,4 +86,4 @@
 .reference-home .intro-section .intro-copy p{max-width:480px}
 .reference-home .intro-section .micro{color:#656b50}
 .reference-home .hero:before{background:linear-gradient(90deg,#f4efeb 0%,rgba(244,239,235,.99) 27%,rgba(244,239,235,.82) 45%,rgba(244,239,235,.14) 67%,transparent 88%)}
-@media(max-width:900px){.reference-home .hero-image{width:100%;object-position:center 24%}.reference-home .hero:before{background:linear-gradient(180deg,#f4efeb 0%,#f4efeb 32%,rgba(244,239,235,.84) 50%,transparent 79%)}}
+@media(max-width:900px){.reference-home .hero-image{width:100%;object-position:center 24%}.reference-home .hero:before{background:linear-gradient(180deg,#f4efeb 0%,rgba(244,239,235,.92) 32%,rgba(244,239,235,.45) 50%,transparent 79%)}}
