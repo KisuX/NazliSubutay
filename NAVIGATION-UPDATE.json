@@ -1,0 +1,52 @@
+{
+  "active_pages": 38,
+  "legacy_redirects": [
+    "muayenehane.html",
+    "en/practice.html"
+  ],
+  "shared_navigation": "js/shared-nav.js",
+  "contact_pages": [
+    "iletisim.html",
+    "en/contact.html"
+  ],
+  "changes": [
+    "bilgilendirme.html",
+    "en/about.html",
+    "en/contact.html",
+    "en/dental-health.html",
+    "en/guide/bad-breath-dry-mouth.html",
+    "en/guide/childrens-teeth.html",
+    "en/guide/dental-checkups.html",
+    "en/guide/flossing.html",
+    "en/guide/gum-health.html",
+    "en/guide/pregnancy-oral-health.html",
+    "en/guide/tooth-decay.html",
+    "en/guide/tooth-sensitivity.html",
+    "en/guide/toothache.html",
+    "en/guide/toothbrushing.html",
+    "en/guide.html",
+    "en/index.html",
+    "en/legal/cookie-policy.html",
+    "en/legal/privacy-notice.html",
+    "en/legal/privacy-policy.html",
+    "en/legal/website-information.html",
+    "hakkimda.html",
+    "iletisim.html",
+    "index.html",
+    "rehber/agiz-kokusu-kuruluk.html",
+    "rehber/cocuklarda-agiz-bakimi.html",
+    "rehber/dis-agrisi.html",
+    "rehber/dis-curugu.html",
+    "rehber/dis-eti-sagligi.html",
+    "rehber/dis-fircalama.html",
+    "rehber/dis-hassasiyeti.html",
+    "rehber/dis-hekimi-kontrolu.html",
+    "rehber/dis-ipi.html",
+    "rehber/gebelikte-dis-sagligi.html",
+    "rehber.html",
+    "yasal/cerez-politikasi.html",
+    "yasal/gizlilik-politikasi.html",
+    "yasal/kvkk-aydinlatma-metni.html",
+    "yasal/site-bilgileri.html"
+  ]
+}

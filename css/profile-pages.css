@@ -1,0 +1,37 @@
+/* Profile details — editorial layout */
+.profile-page{background:#faf7f3;color:#25231f}
+.profile-page .site-header{background:#faf7f3}
+.profile-page .brand{display:flex;align-items:center;gap:14px;font-size:1.55rem;line-height:.85}
+.profile-page .brand small{display:block;font:600 .56rem/1.5 var(--sans);letter-spacing:.3em;margin-top:8px}
+.profile-page .tooth-logo{width:42px;height:52px;color:#656b50}
+.profile-hero{background:linear-gradient(120deg,#f3ede6,#fdfaf7);border-bottom:1px solid #e7ddd1;padding:93px 0 55px}
+.profile-hero .profile-wrap{display:grid;grid-template-columns:minmax(0,1.07fr) minmax(320px,.93fr);align-items:center;gap:7vw}
+.profile-hero .breadcrumb{font-size:.76rem;margin-bottom:2.8rem}
+.profile-hero h1{font-size:clamp(3.7rem,6.3vw,6.1rem);letter-spacing:-.04em;line-height:1}
+.profile-hero .lead{color:#625c56;font-size:1.02rem;line-height:1.8;max-width:540px;margin:25px 0}
+.profile-portrait{margin:0;min-height:570px;max-height:680px;height:65vw;background:#ddd7d1;overflow:hidden;position:relative;border-radius:3px}
+.profile-portrait img{width:100%;height:100%;object-fit:cover;object-position:center 30%}
+.profile-summary{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:28px}
+.profile-summary .fact{padding:18px 0;border-top:1px solid #cfc2b4}
+.profile-summary strong{font:500 2rem var(--serif);color:#424b33;display:block;margin-bottom:5px}
+.profile-summary span{font-size:.73rem;color:#5c5750;line-height:1.5;display:block}
+.profile-section{padding:86px 0}
+.profile-section.alt{background:#f1ebe4}
+.profile-section h2{font-size:clamp(2.9rem,4.8vw,4.2rem);margin:12px 0 20px}
+.profile-section .section-description{max-width:720px;color:#6d665d;line-height:1.8}
+.interest-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:32px}
+.interest{border:1px solid #dbd1c5;background:#fffdfa;padding:30px;min-height:150px}
+.interest .interest-index{font:.7rem var(--sans);letter-spacing:.12em;color:#777962;display:block;margin-bottom:30px}
+.interest h3{font-size:1.9rem;line-height:1.15}
+.timeline-grid{display:grid;grid-template-columns:220px minmax(0,1fr);gap:30px 65px;margin-top:35px}
+.timeline-year{font:500 2.4rem var(--serif);color:#656b50;padding-top:12px;line-height:1.1}
+.training-items{list-style:none;padding:0;margin:0}
+.training-items li{padding:17px 0;border-bottom:1px solid #d9cdc0;font-size:.9rem;line-height:1.65;color:#45423e}
+.training-items li:first-child{border-top:1px solid #d9cdc0}
+.content-note{font-size:.75rem;color:#77716b;line-height:1.65;max-width:780px;margin-top:24px}
+.profile-page .footer{margin-top:0}
+@media(max-width:850px){.profile-hero .profile-wrap{grid-template-columns:1fr;gap:26px}.profile-portrait{width:100%;height:600px;min-height:0}.timeline-grid{grid-template-columns:150px 1fr;gap:18px 27px}}
+@media(max-width:580px){.profile-hero{padding-top:70px}.profile-hero .profile-wrap{gap:24px}.profile-hero .breadcrumb{margin-bottom:27px}.profile-hero h1{font-size:3.6rem}.profile-portrait{height:460px}.profile-section{padding:60px 0}.interest-grid{grid-template-columns:1fr}.interest{min-height:120px;padding:23px}.timeline-grid{grid-template-columns:1fr;gap:15px}.timeline-year{font-size:2rem;padding-top:16px}.training-items{margin-bottom:18px}}
+
+/* Profile summary now highlights graduation year only. */
+.profile-summary{grid-template-columns:minmax(0,1fr);max-width:420px}

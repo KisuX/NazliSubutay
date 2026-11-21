@@ -1,0 +1,20 @@
+body.contact-page .page-hero { padding:68px 0 56px; }
+body.contact-page .page-hero .breadcrumb {margin-bottom:1.5rem;}
+/* Consolidated Contact + Practice page */
+.contact-summary-section {padding-top:76px; padding-bottom:76px;}
+.contact-layout {display:grid; grid-template-columns:1.1fr .95fr; gap:clamp(32px,5.5vw,84px); align-items:start;}
+.contact-info h2 {font-size:clamp(2.6rem,4vw,4rem); margin:0 0 18px;}
+.contact-info .contact-intro {color:var(--muted); font-size:.95rem; max-width:520px; margin:0 0 12px;}
+.contact-info .detail {padding:16px 0;}
+.contact-actions {display:flex; flex-wrap:wrap; gap:12px; margin-top:28px; align-items:center;}
+.contact-call {display:inline-flex; align-items:center; justify-content:center; padding:12px 20px; min-height:43px; font-size:.81rem; border:1px solid #656b50; border-radius:32px; text-decoration:none; color:#3b4031;}
+.contact-call:hover {background:#eeece5;}
+.contact-visual {background:#eee9e1;}
+.contact-visual img {display:block; width:100%; aspect-ratio:4/3; object-fit:cover;}
+.contact-hours {padding:23px 28px; background:#ede8df;}
+.contact-hours .eyebrow {margin-bottom:12px;}
+.contact-hours .hours-row {padding:9px 0;}
+.contact-hours .hours-row strong {color:var(--ink);font-size:.89rem;}
+.contact-summary-section .detail-value a {text-decoration:none;border-bottom:1px solid #a79b8b;}
+.contact-summary-section .detail-value a:hover {color:#606b49;}
+@media(max-width:780px){body.contact-page .page-hero {padding:50px 0 38px;}.contact-layout {grid-template-columns:1fr;}.contact-summary-section{padding-top:48px;padding-bottom:48px;}.contact-visual img {aspect-ratio:16/10;}}

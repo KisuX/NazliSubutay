@@ -1,0 +1,23 @@
+{
+  "navigation_pages_tr": [
+    "index.html",
+    "hakkimda.html",
+    "rehber.html",
+    "iletisim.html"
+  ],
+  "navigation_pages_en": [
+    "en/index.html",
+    "en/about.html",
+    "en/guide.html",
+    "en/contact.html"
+  ],
+  "legacy_redirects": [
+    "bilgilendirme.html",
+    "en/dental-health.html",
+    "muayenehane.html",
+    "en/practice.html"
+  ],
+  "phone_display": "+90 533 427 86 05",
+  "whatsapp_phone": "905334278605",
+  "profile_summary_year_removed": "2016–2024"
+}

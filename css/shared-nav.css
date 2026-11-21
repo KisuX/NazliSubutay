@@ -1,0 +1,45 @@
+/* Shared header across all languages and page types. Loaded last. */
+:root { --header-height:84px; }
+.site-header, .reference-home .site-header, .profile-page .site-header { position:sticky; top:0; left:auto; right:auto; bottom:auto; z-index:1000; background:#f7f5f0; border-bottom:1px solid rgba(41,42,39,.12); backdrop-filter:none; }
+.site-header .navbar, .reference-home .site-header .navbar { width:min(calc(100% - 48px),1320px); max-width:none; min-height:var(--header-height); margin-inline:auto; padding:0; display:flex; align-items:center; justify-content:space-between; gap:16px; }
+.site-header .brand, .reference-home .site-header .brand { display:inline-flex; align-items:center; flex-shrink:0; gap:11px; font:500 1.8rem/1 var(--serif); color:var(--ink); white-space:nowrap; text-decoration:none; }
+.site-header .brand span, .reference-home .site-header .brand span {display:block;}
+.site-header .brand small, .reference-home .site-header .brand small { display:block; font:600 .54rem/1.3 var(--sans); letter-spacing:.32em; margin-top:6px; }
+.site-header .tooth-logo, .reference-home .site-header .tooth-logo { width:41px; height:49px; flex-shrink:0; color:#656b50; }
+.site-header .nav-wrap, .reference-home .site-header .nav-wrap { display:flex; position:static; align-items:center; justify-content:flex-end; gap:clamp(12px,1.8vw,24px); flex:1; padding:0; margin:0; background:transparent; border:0; box-shadow:none; }
+.site-header .nav-links, .reference-home .site-header .nav-links { display:flex; align-items:center; flex-direction:row; gap:clamp(12px,1.5vw,24px); list-style:none; padding:0; margin:0; }
+.site-header .nav-links li {margin:0; padding:0;}
+.site-header .nav-links a, .reference-home .site-header .nav-links a { color:var(--ink); font:500 .76rem/1.4 var(--sans); text-decoration:none; padding:7px 0; border-bottom:1px solid transparent; white-space:nowrap; transition:color .2s ease,border-color .2s ease; }
+.site-header .nav-links a:hover, .reference-home .site-header .nav-links a:hover, .site-header .nav-links a[aria-current=page], .reference-home .site-header .nav-links a[aria-current=page] { color:#4d543c; border-bottom-color:#656b50; }
+.site-header .lang-switch, .reference-home .site-header .lang-switch { display:flex; align-items:center; gap:8px; margin:0; padding:0 0 0 14px; border-left:1px solid #d8d0c7; white-space:nowrap; }
+.site-header .lang-switch a, .reference-home .site-header .lang-switch a { font:600 .76rem/1.4 var(--sans); color:#6d6860; text-decoration:none; }
+.site-header .lang-switch a.active, .reference-home .site-header .lang-switch a.active { color:#292a27; border-bottom:1px solid #656b50; }
+.site-header .lang-switch span {font-size:.7rem;color:#aba39a;}
+.site-header .wa-nav, .reference-home .site-header .wa-nav { display:inline-flex; flex-shrink:0; width:auto; align-items:center; gap:8px; padding:10px 14px; background:#656b50; border-radius:30px; color:#fff!important; font:600 .73rem/1.2 var(--sans); white-space:nowrap; text-decoration:none; }
+.site-header .wa-nav:hover {background:#4f563f;}
+.site-header .wa-nav svg {width:18px;height:18px;}
+.site-header .menu-toggle, .reference-home .site-header .menu-toggle { display:none; background:transparent; border:1px solid #c8bfb5; border-radius:8px; color:#30302b; width:43px; height:43px; cursor:pointer; font-size:1.3rem; }
+/* Home hero sits directly below the same header used on other pages */
+.reference-home .hero {min-height:500px; height:520px;}
+.reference-home .hero-content {padding-top:0;}
+@media(max-width:1100px){
+  .site-header .menu-toggle, .reference-home .site-header .menu-toggle {display:flex; align-items:center; justify-content:center; margin-left:auto;}
+  .site-header .nav-wrap, .reference-home .site-header .nav-wrap { display:none; position:absolute; top:100%; left:0; right:0; width:100%; padding:22px max(24px,calc((100vw - 1040px)/2)); background:#f7f5f0; border-bottom:1px solid #d8d0c7; box-shadow:0 10px 25px #0001; align-items:flex-start; flex-direction:column; gap:24px; }
+  .site-header .nav-wrap.open, .reference-home .site-header .nav-wrap.open { display:flex; }
+  .site-header .nav-links, .reference-home .site-header .nav-links {flex-direction:column; align-items:flex-start; gap:14px; }
+  .site-header .lang-switch, .reference-home .site-header .lang-switch {border-left:0; padding-left:0;}
+  .site-header .wa-nav, .reference-home .site-header .wa-nav {align-self:flex-start;}
+}
+@media(max-width:900px){
+  .reference-home .hero { height:665px; }
+  .reference-home .hero-content {padding-top:0; margin-top:52px;}
+}
+@media(max-width:560px){
+  :root { --header-height:74px; }
+  .site-header .navbar, .reference-home .site-header .navbar {width:calc(100% - 36px);}
+  .site-header .brand, .reference-home .site-header .brand {font-size:1.5rem;gap:7px;}
+  .site-header .brand small, .reference-home .site-header .brand small {font-size:.47rem;letter-spacing:.25em;}
+  .site-header .tooth-logo, .reference-home .site-header .tooth-logo {width:35px;height:42px;}
+  .reference-home .hero {height:630px;}
+  .reference-home .hero-content {margin-top:25px;}
+}

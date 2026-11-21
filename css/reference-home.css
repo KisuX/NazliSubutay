@@ -1,0 +1,89 @@
+
+/* Reference-inspired editorial homepage — scoped to .reference-home */
+.reference-home { --olive:#656b50; --soft:#f5f0eb; --ink:#22211f; --line:#d9cfc4; background:#faf7f3; color:var(--ink); }
+.reference-home .site-header { position:absolute; top:0; left:0; right:0; background:transparent; border:0; backdrop-filter:none; }
+.reference-home .navbar { min-height:92px; width:min(calc(100% - 72px),1320px); }
+.reference-home .brand { display:flex; align-items:center; gap:16px; font-size:1.85rem; line-height:.85; }
+.reference-home .brand small { display:block; font:600 .59rem/1.5 var(--sans); letter-spacing:.43em; margin-top:9px; }
+.reference-home .tooth-logo { width:50px; height:59px; color:var(--olive); flex-shrink:0; }
+.reference-home .nav-links { gap:2rem; }
+.reference-home .nav-links a { font-size:.79rem; }
+.reference-home .nav-links a[aria-current=page] { color:var(--ink); border-bottom:1px solid var(--olive); padding-bottom:7px; }
+.reference-home .lang-switch { margin-left:1rem; }
+.reference-home .hero { min-height:0; height:540px; padding:0; position:relative; overflow:hidden; background:linear-gradient(90deg,#f4efeb 0%,#f4efeb 43%,#e7ddd2 100%); }
+.reference-home .hero-image { position:absolute; right:0; top:0; width:54%; height:100%; object-fit:cover; object-position:center 29%; }
+.reference-home .hero:before { content:""; position:absolute; z-index:1; inset:0; background:linear-gradient(90deg,#f4efeb 0%,rgba(244,239,235,.98) 30%,rgba(244,239,235,.65) 52%,transparent 74%); pointer-events:none; }
+.reference-home .hero:after { content:""; position:absolute; z-index:1; width:360px; height:360px; border:1px solid rgba(167,146,116,.38); border-radius:50%; left:-260px; top:170px; }
+.reference-home .hero-content { position:relative; z-index:2; width:min(calc(100% - 72px),1180px); margin:auto; padding-top:120px; }
+.reference-home .hero h1 { font-size:clamp(3.7rem,5vw,5.5rem); line-height:.99; letter-spacing:-.038em; max-width:610px; }
+.reference-home .hero .lead { color:#292826; font-size:1.04rem; line-height:1.7; max-width:490px; margin:24px 0 26px; }
+.reference-home .solid-button { display:inline-flex; align-items:center; gap:16px; border-radius:28px; padding:12px 22px; background:var(--olive); color:white; font-size:.83rem; text-decoration:none; }
+.reference-home .solid-button:hover { background:#4f563f; }
+.reference-home .hero-demo-note { position:absolute; z-index:2; bottom:12px; right:20px; font-size:.65rem; color:#3d3935; background:rgba(255,255,255,.85); padding:5px 10px; }
+.reference-home .feature-strip { background:#f8f5f2; border-top:1px solid #e7dfd7; border-bottom:1px solid #e7dfd7; }
+.reference-home .feature-grid { width:min(calc(100% - 72px),1180px); margin:auto; display:grid; grid-template-columns:repeat(4,1fr); }
+.reference-home .feature { display:flex; gap:17px; align-items:center; padding:26px 18px; min-height:96px; position:relative; }
+.reference-home .feature:not(:last-child):after { content:""; width:1px; height:45px; background:#d7c9ba; position:absolute; right:0; }
+.reference-home .feature svg { width:35px; height:35px; flex-shrink:0; color:var(--olive); stroke-width:1.35; }
+.reference-home .feature strong { display:block; font-size:.79rem; font-weight:600; }
+.reference-home .feature span { display:block; font-size:.69rem; color:#77716b; line-height:1.5; }
+.reference-home .intro-section { background:#fffdfb; padding:30px 0; }
+.reference-home .intro-grid { display:grid; grid-template-columns:1.04fr 1.13fr .95fr; gap:40px; align-items:center; width:min(calc(100% - 72px),1320px); margin:auto; }
+.reference-home .intro-image { height:245px; width:100%; object-fit:cover; border-radius:16px; }
+.reference-home .micro { font-size:.68rem; letter-spacing:.26em; text-transform:uppercase; color:var(--olive); font-weight:700; }
+.reference-home .intro-copy h2 { font-size:2.55rem; margin:8px 0 14px; }
+.reference-home .intro-copy p { font-size:.83rem; line-height:1.85; margin:0 0 18px; }
+.reference-home .outline-button { display:inline-flex; gap:14px; padding:8px 20px; border:1px solid var(--olive); border-radius:24px; font-size:.78rem; text-decoration:none; }
+.reference-home .quote { border-left:1px solid #cbbda9; padding-left:35px; text-align:center; font:italic 1.45rem/1.35 var(--serif); }
+.reference-home .quote em { display:block; font-size:1.9rem; margin-top:15px; }
+.reference-home .wide-section { min-height:380px; position:relative; overflow:hidden; background:#eee7e0; display:grid; grid-template-columns:1fr 1fr; }
+.reference-home .wide-section .wide-text { padding:64px max(30px,calc((100vw - 1180px)/2)); padding-right:35px; position:relative; z-index:1; }
+.reference-home .wide-section h2 { font-size:3.3rem; margin:12px 0 18px; }
+.reference-home .wide-section p { font-size:.91rem; max-width:460px; }
+.reference-home .wide-section img { height:100%; width:100%; min-height:380px; object-fit:cover; }
+.reference-home .section { padding:75px 0; }
+.reference-home .section-head h2 { font-size:3.2rem; }
+.reference-home .info-card { background:#fff; border:1px solid #e9e0d6; }
+.reference-home .footer { background:#302f2a; }
+@media(max-width:900px) {
+ .reference-home .site-header { position:absolute; }
+ .reference-home .navbar { width:calc(100% - 36px); }
+ .reference-home .nav-wrap { background:#faf7f3; padding:20px; box-shadow:0 12px 25px #0002; }
+ .reference-home .hero { height:690px; }
+ .reference-home .hero-image { width:100%; height:57%; top:auto; bottom:0; object-position:center 25%; }
+ .reference-home .hero:before { background:linear-gradient(180deg,#f4efeb 0%,#f4efeb 32%,rgba(244,239,235,.75) 54%,transparent 82%); }
+ .reference-home .hero-content { width:calc(100% - 42px); padding-top:120px; align-self:start; }
+ .reference-home .hero h1 { font-size:clamp(3.3rem,9vw,4.5rem); }
+ .reference-home .hero .lead { max-width:390px; font-size:.92rem; margin:15px 0 18px; }
+ .reference-home .feature-grid { width:calc(100% - 24px); grid-template-columns:repeat(2,1fr); }
+ .reference-home .feature { padding:15px 12px; }
+ .reference-home .feature:nth-child(2):after { display:none; }
+ .reference-home .intro-grid { width:calc(100% - 36px); grid-template-columns:1fr 1fr; gap:25px; }
+ .reference-home .quote { grid-column:1/-1; padding:15px 0; border-left:0; border-top:1px solid #cbbda9; }
+ .reference-home .wide-section { grid-template-columns:1fr; }
+ .reference-home .wide-section .wide-text { padding:45px 24px; }
+ .reference-home .wide-section img { height:300px; min-height:0; }
+}
+@media(max-width:560px) {
+ .reference-home .brand { font-size:1.45rem; gap:8px; }
+ .reference-home .brand small { font-size:.47rem; }
+ .reference-home .tooth-logo { width:37px; height:43px; }
+ .reference-home .hero { height:670px; }
+ .reference-home .hero-image { height:51%; }
+ .reference-home .hero h1 { font-size:3.35rem; }
+ .reference-home .hero-content { padding-top:120px; }
+ .reference-home .feature svg { width:27px; }
+ .reference-home .feature { gap:9px; }
+ .reference-home .feature strong { font-size:.71rem; }
+ .reference-home .feature span { font-size:.62rem; }
+ .reference-home .intro-grid { grid-template-columns:1fr; }
+ .reference-home .intro-image { height:240px; }
+ .reference-home .quote { grid-column:auto; }
+}
+
+/* Real portrait is a vertical photograph supplied by the site owner. */
+.reference-home .hero-image{width:55%;object-position:center 30%;}
+.reference-home .intro-section .intro-copy p{max-width:480px}
+.reference-home .intro-section .micro{color:#656b50}
+.reference-home .hero:before{background:linear-gradient(90deg,#f4efeb 0%,rgba(244,239,235,.99) 27%,rgba(244,239,235,.82) 45%,rgba(244,239,235,.14) 67%,transparent 88%)}
+@media(max-width:900px){.reference-home .hero-image{width:100%;object-position:center 24%}.reference-home .hero:before{background:linear-gradient(180deg,#f4efeb 0%,#f4efeb 32%,rgba(244,239,235,.84) 50%,transparent 79%)}}
