@@ -15,7 +15,7 @@
 .reference-home .hero:before { content:""; position:absolute; z-index:1; inset:0; background:linear-gradient(90deg,#f4efeb 0%,rgba(244,239,235,.98) 30%,rgba(244,239,235,.65) 52%,transparent 74%); pointer-events:none; }
 .reference-home .hero:after { content:""; position:absolute; z-index:1; width:360px; height:360px; border:1px solid rgba(167,146,116,.38); border-radius:50%; left:-260px; top:170px; }
 .reference-home .hero-content { position:relative; z-index:2; width:min(calc(100% - 72px),1180px); margin:auto; padding-top:120px; }
-.reference-home .hero h1 { font-size:clamp(3.7rem,5vw,5.5rem); line-height:.99; letter-spacing:-.038em; max-width:610px; }
+.reference-home .hero h1 { font-size:clamp(4.1rem,5.4vw,6rem); line-height:.99; letter-spacing:-.038em; max-width:610px; }
 .reference-home .hero .lead { color:#292826; font-size:1.04rem; line-height:1.7; max-width:490px; margin:24px 0 26px; }
 .reference-home .solid-button { display:inline-flex; align-items:center; gap:16px; border-radius:28px; padding:12px 22px; background:var(--olive); color:white; font-size:.83rem; text-decoration:none; }
 .reference-home .solid-button:hover { background:#4f563f; }
@@ -70,7 +70,7 @@
  .reference-home .tooth-logo { width:37px; height:43px; }
  .reference-home .hero { height:670px; }
  .reference-home .hero-image { height:51%; }
- .reference-home .hero h1 { font-size:clamp(2rem,8vw,2.35rem); line-height:1.08; letter-spacing:-.02em; max-width:100%; overflow-wrap:normal; word-break:normal; }
+ .reference-home .hero h1 { font-size:clamp(2.25rem,9.5vw,2.7rem); line-height:1.08; letter-spacing:-.02em; max-width:100%; overflow-wrap:normal; word-break:normal; }
  .reference-home .hero-content { padding-top:120px; }
  .reference-home .feature svg { width:27px; }
  .reference-home .feature { gap:9px; }
