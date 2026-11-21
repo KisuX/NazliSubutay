@@ -21,7 +21,6 @@
 .profile-section .section-description{max-width:720px;color:#6d665d;line-height:1.8}
 .interest-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:32px}
 .interest{border:1px solid #dbd1c5;background:#fffdfa;padding:30px;min-height:150px}
-.interest .interest-index{font:.7rem var(--sans);letter-spacing:.12em;color:#777962;display:block;margin-bottom:30px}
 .interest h3{font-size:1.9rem;line-height:1.15}
 .timeline-grid{display:grid;grid-template-columns:220px minmax(0,1fr);gap:30px 65px;margin-top:35px}
 .timeline-year{font:500 2.4rem var(--serif);color:#656b50;padding-top:12px;line-height:1.1}
