@@ -70,7 +70,7 @@
  .reference-home .tooth-logo { width:37px; height:43px; }
  .reference-home .hero { height:670px; }
  .reference-home .hero-image { height:51%; }
- .reference-home .hero h1 { font-size:clamp(1.75rem,7vw,2.05rem); line-height:1.08; letter-spacing:-.02em; max-width:100%; overflow-wrap:normal; word-break:normal; }
+ .reference-home .hero h1 { font-size:clamp(2rem,8vw,2.35rem); line-height:1.08; letter-spacing:-.02em; max-width:100%; overflow-wrap:normal; word-break:normal; }
  .reference-home .hero-content { padding-top:120px; }
  .reference-home .feature svg { width:27px; }
  .reference-home .feature { gap:9px; }
