@@ -25,9 +25,9 @@
 .certificate-preview h2{font:500 clamp(2.5rem,4vw,3.5rem)/1.07 var(--serif);margin:10px 0 0}
 .certificate-preview .preview-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
 .certificate-preview .preview-item{display:block;text-decoration:none;background:#fff;border:1px solid #e5ddd3;overflow:hidden}
-.certificate-preview .preview-item img{display:block;width:100%;aspect-ratio:3/2;object-fit:contain;background:#ece7df}
+.certificate-preview .preview-item img{display:block;width:100%;aspect-ratio:3/2;object-fit:contain;object-position:center;background:#ece7df}
 .certificate-preview .preview-item span{display:block;font-size:.79rem;padding:12px 15px 15px;line-height:1.5}
 @media(max-width:850px){.certificate-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:17px}}
-@media(max-width:560px){.certificate-grid{grid-template-columns:1fr;gap:19px}.certificate-info{padding:18px}.certificate-preview{padding:48px 0}.certificate-preview .preview-heading{display:block}.certificate-preview .preview-heading a{margin-top:18px;display:inline-block}.certificate-preview .preview-grid{grid-template-columns:1fr 1fr;gap:10px}.certificate-preview .preview-item span{font-size:.7rem;padding:8px 10px 12px}.certificate-preview .preview-item:nth-child(3){display:none}.certificate-dialog{padding:56px 10px 15px}.certificate-dialog img{max-height:70vh}}
+@media(max-width:560px){.certificate-grid{grid-template-columns:1fr;gap:19px}.certificate-info{padding:18px}.certificate-preview{padding:48px 0}.certificate-preview .preview-heading{display:block}.certificate-preview .preview-heading a{margin-top:18px;display:inline-block}.certificate-preview .preview-grid{grid-template-columns:1fr;gap:14px}.certificate-preview .preview-item span{font-size:.74rem;padding:10px 12px 13px}.certificate-preview .preview-item:nth-child(3){display:block}.certificate-dialog{padding:56px 10px 15px}.certificate-dialog img{max-height:70vh}}
 
 .profile-page .outline-button{display:inline-flex;align-items:center;text-decoration:none;color:#33352b;background:transparent;border:1px solid #656b50;padding:10px 19px;border-radius:28px;font:600 .79rem/1.4 var(--sans);transition:background .2s ease}.profile-page .outline-button:hover{background:#e9e4db}
